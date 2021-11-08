@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+@media only screen and (max-width: 40em) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media only screen and (max-width: 25em) {
+  html {
+    font-size: 42%;
+  }
+}
+
+body {
+  background-color: #0d0da8;
+  background-image: url("./images/curve.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow: hidden;
+  text-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+header {
+  height: 10vh;
+  width: 112rem;
+  max-width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  color: #fff;
+}
+
+header h2 {
+  font-size: 4rem;
+}
+
+main {
+  height: 90vh;
+  width: 112rem;
+  max-width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+section.left {
+  color: #fff;
+}
+
+section.left h1 {
+  font-size: 5rem;
+}
+
+section.left p {
+  font-size: 2rem;
+  color: #ffffffd9;
+}
+
+section.left ul.countdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+}
+
+section.left ul.countdown li {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  margin: -2rem 0 1.5rem;
+}
+
+section.left ul.countdown li span {
+  display: inline-block;
+}
+
+section.left ul.countdown li span:nth-child(1) {
+  background-color: rgba(17, 17, 226, 0.897);
+  border-radius: 50%;
+  padding: 1.5rem;
+  height: 8rem;
+  width: 8rem;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2rem;
+  -webkit-box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.2), -0.1rem -0.1rem 0.3rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.2), -0.1rem -0.1rem 0.3rem rgba(0, 0, 0, 0.2);
+}
+
+section.left ul.countdown li span:nth-child(2) {
+  width: 10rem;
+  height: 7rem;
+  background-color: #ff0084;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+  border-radius: 3px;
+  -webkit-box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.2), -0.2rem -0.2rem 0.5rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.2), -0.2rem -0.2rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+section.left button {
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 1.2rem 2.5rem;
+  outline: none;
+  border: none;
+  background-color: #ff0084;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+section.left button:hover {
+  background-color: #b41db4;
+}
+
+section.left button:hover {
+  background-color: #d30b72;
+}
+
+section.left ul.media-links {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  position: absolute;
+  bottom: 3rem;
+}
+
+section.left ul.media-links li {
+  font-size: 2rem;
+}
+
+section.left ul.media-links li a {
+  text-decoration: none;
+  color: #ffffffd7;
+}
+
+section.right {
+  width: 40%;
+  height: 80%;
+}
+
+@media only screen and (max-width: 48em) {
+  section.right {
+    position: absolute;
+    top: 0.5rem;
+    left: 20rem;
+    width: 8rem;
+    height: 6rem;
+  }
+}
+
+@media only screen and (max-width: 25em) {
+  section.right {
+    top: 1.5rem;
+  }
+}
+
+section.right figure {
+  height: 100%;
+  width: 100%;
+}
+
+section.right figure img {
+  height: inherit;
+  width: inherit;
+}
+
+section.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(107, 36, 36, 0.8);
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.modal form {
+  width: 45rem;
+  max-width: 95%;
+  background-color: #fff;
+  padding: 3rem 4rem;
+  position: relative;
+}
+
+section.modal form button.close {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  font-size: 3.5rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  z-index: 100;
+}
+
+section.modal form h2 {
+  font-size: 4rem;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+section.modal form p {
+  font-size: 2.2rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+section.modal form input {
+  font-size: 1.6rem;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 3px;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+  outline: none;
+  margin: 1rem 0;
+  border: 1px solid purple;
+}
+
+section.modal form input:focus {
+  border: 2px solid purple;
+}
+
+section.modal form button.submit {
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 1.2rem 2.5rem;
+  outline: none;
+  border: none;
+  background-color: #ff0084;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+section.modal form button.submit:hover {
+  background-color: #b41db4;
+}
+/*# sourceMappingURL=main.css.map */

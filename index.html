@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <script src="./script.js" defer></script>
+
+    <title>Responsive Coming Soon Page</title>
+  </head>
+  <body>
+    <header>
+      <h2 class="logo">SeedDrum</h2>
+    </header>
+
+    <main>
+      <section class="left">
+        <h1>Coming This Winter!</h1>
+        <p>
+          Something awesome is on the way.
+          <br />
+          Want to get first access to our platform? <br />
+          Get notified below
+        </p>
+        <ul class="countdown">
+          <li>
+            <span data-days>62</span>
+            <span>Days</span>
+          </li>
+          <li>
+            <span data-hours>62</span>
+            <span>Hours</span>
+          </li>
+          <li>
+            <span data-minutes>62</span>
+            <span>Minutes</span>
+          </li>
+          <li>
+            <span data-seconds>62</span>
+            <span>Seconds</span>
+          </li>
+        </ul>
+
+        <button type="button" id="btn-notify">Get Notified</button>
+        <ul class="media-links">
+          <li>
+            <a href="https://www.facebook.com" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="right">
+        <figure>
+          <img src="./images/man.png" alt="" />
+        </figure>
+      </section>
+    </main>
+
+    <!-- This is Modal will appear when clicked on notified button -->
+    <section class="modal" id="modal">
+      <form id="form">
+        <button type="button" class="close" id="btn-close">&times;</button>
+        <h2>Stay Tuned</h2>
+        <p>Get Notified at Launch</p>
+        <input
+          id="input"
+          type="email"
+          name="email"
+          placeholder="Enter Email Address"
+          required
+        />
+        <button class="submit" id="btn-submit">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
