@@ -36,5 +36,5 @@ The project was deployed to Netlify
 3. The original copy of the repository is now copied on your GitHub account which allows you to view and/or work on the codes without affecting the original work
 
 ### Credit
-- [Online Tutorials](https://www.youtube.com/c/OnlineTutorials4Designers) for the Design 
+- [Online Tutorials](https://www.youtube.com/watch?v=Zr2-0BJ0KXo&t=75s) for the Design 
 
