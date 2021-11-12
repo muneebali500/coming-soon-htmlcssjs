@@ -6,7 +6,7 @@ This is a Frontend Development project Developed by me using HTML, CSS and JavaS
 
 [Link to Live Project](https://sooncoming.netlify.app/)
 
-![eagler website](/img/comingsoon.png)
+![Landing Page](/img/cominsoon.png)
 
 ## Technologies Used
 
