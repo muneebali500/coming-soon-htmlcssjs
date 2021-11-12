@@ -35,3 +35,6 @@ The project was deployed to Netlify
 2. Just above the navigation menu of the repository (above the Settings button) locate the Fork button
 3. The original copy of the repository is now copied on your GitHub account which allows you to view and/or work on the codes without affecting the original work
 
+### Credit
+- [Online Tutorials](https://www.youtube.com/c/OnlineTutorials4Designers) for the Design 
+
