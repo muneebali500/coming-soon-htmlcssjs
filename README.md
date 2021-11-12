@@ -6,7 +6,7 @@ This is a Frontend Development project Developed by me using HTML, CSS and JavaS
 
 [Link to Live Project](https://sooncoming.netlify.app/)
 
-![Landing Page](/img/cominsoon.png)
+![Landing Page](/images/cominsoon.png)
 
 ## Technologies Used
 
