@@ -33,7 +33,7 @@ const hoursElement = document.querySelector(`[data-hours]`);
 const minutesElement = document.querySelector(`[data-minutes]`);
 const secondsElement = document.querySelector(`[data-seconds]`);
 
-const countDate = new Date(`Feb 15, 2022 00:00:00`).getTime();
+const countDate = new Date(`Apr 15, 2022 00:00:00`).getTime();
 
 function countDown() {
   const now = new Date().getTime();
